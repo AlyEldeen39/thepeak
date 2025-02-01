@@ -1,0 +1,11 @@
+{
+    "name": "alyeldeen/thepeak",
+    "description": "The Personal Evaluation and Assessment Keeper",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Aloha"
+        }
+    ],
+    "require": {}
+}
