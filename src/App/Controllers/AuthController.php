@@ -14,4 +14,6 @@ class AuthController
     {
         echo $this->view->render("register.php");
     }
+
+    public function register() {}
 }

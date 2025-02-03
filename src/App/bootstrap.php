@@ -7,10 +7,12 @@ include __DIR__ . "/functions.php";
 
 use App\Config\Paths;
 use Framework\App;
-use function App\Config\registerRoutes;
+use function App\Config\{registerRoutes, registerMiddlewares};
+
 
 $app = new App(Paths::SOURCE . "App/container-definitions.php");
 
 registerRoutes($app);
+registerMiddlewares($app);
 
 return $app;
