@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-namespace App\Exceptions;
+namespace Framework\Exceptions;
 
 use Exception;
 
-class ContainerExcpetion extends Exception {}
+class ContainerException extends Exception {}
